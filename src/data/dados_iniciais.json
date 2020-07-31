@@ -1,0 +1,137 @@
+{
+  "categorias": [
+    {
+      "titulo": "Arte",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#8cede1",
+      "videos": [
+        {
+          "titulo": "Purple Mountain｜Acrylic Painting on Canvas Step by Step",
+          "url": "https://www.youtube.com/watch?v=7PHG9Vk2CAY&feature=youtu.be"
+        },
+        {
+          "titulo": "5 Steps To Making A Gorgeous 2D Game",
+          "url": "https://www.youtube.com/watch?v=QD3SFyWPVFY&feature=youtu.be"
+        }      
+      ]
+    },
+    {
+      "titulo": "Ciência e Tecnologia",
+      "cor": "#af94e8",
+      "videos": [
+        {
+          "titulo": "Estrelas de Nêutrons",
+          "url": "https://www.youtube.com/watch?v=udFxKZRyQt4"
+        },
+        {
+          "titulo": "Deploy de aplicação NodeJS e ReactJS no Heroku | Diego Fernandes",
+          "url": "https://www.youtube.com/watch?v=-j7vLmBMsEU"
+        },
+        {
+          "titulo": "Wormholes",
+          "url": "https://www.youtube.com/watch?v=9P6rdqiybaw"
+        },
+        {
+          "titulo": "15 Sorting Algorithms in 6 Minutes",
+          "url": "https://www.youtube.com/watch?v=kPRA0W1kECg"
+        }
+      ]
+    },
+    {
+      "titulo": "Culinária",
+      "cor": "#e894e0",
+      "videos": [
+        {
+          "titulo": "British Crumpets",
+          "url": "https://www.youtube.com/watch?v=VrT93xDJfPg"
+        },
+        {
+          "titulo": "Torta de Mousse de Maracujá e Chocolate",
+          "url": "https://www.youtube.com/watch?v=4Y7j7oJKL2k&list=PL7biWkm0dNqbIv6Pipwp-2LW8RsaRq3FS&index=60"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes e Séries",
+      "cor": "#e89494",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+        },
+        {
+          "titulo": "Dark",
+          "url": "youtube.com/watch?v=ESEUoa-mz2c"
+        },
+        {
+          "titulo": "Simplesmente Acontece",
+          "url": "https://www.youtube.com/watch?v=ZUqU9SQOt10"
+        },
+        {
+          "titulo": "Sherlock",
+          "url": "https://www.youtube.com/watch?v=xK7S9mrFWL4"
+        }
+      ]
+    },
+    {
+      "titulo": "Jogos",
+      "cor": "#ed9c6e",
+      "videos": [
+        {
+          "titulo": "Gris",
+          "url": "https://www.youtube.com/watch?v=BRiKQIVo7ao"
+        },
+        {
+          "titulo": "Horizon Zero Dawn",
+          "url": "https://www.youtube.com/watch?v=OpfuQulZHR8"
+        },
+        {
+          "titulo": "Life is Strange",
+          "url": "https://www.youtube.com/watch?v=AURVxvIZrmU"
+        },
+        {
+          "titulo": "Quantum Break",
+          "url": "https://www.youtube.com/watch?v=ruY1eT9bXiw"
+        },
+        {
+          "titulo": "Arise: A Simple Story",
+          "url": "https://www.youtube.com/watch?v=-wyQlqOuVSs"
+        }
+      ]
+    },
+    {
+      "titulo": "Músicas",
+      "cor": "#edd16e",
+      "videos": [
+        {
+          "titulo": "Cooper & Gatlin - Fragile [Official Music Video] feat. Sean Lew & Kaycee Rice",
+          "url": "https://www.youtube.com/watch?v=dOQz_ulqqkI"
+        },
+        {
+          "titulo": "Taylor Swift – exile (feat. Bon Iver) (Official Lyric Video)",
+          "url": "https://www.youtube.com/watch?v=osdoLjUNFnA"
+        },
+        {
+          "titulo": "James Bay - Incomplete - Tessandra Chavez x Tim Milgram",
+          "url": "https://www.youtube.com/watch?v=wrAlPeQj_Ns"
+        },
+        {
+          "titulo": "Oh Wonder - Don't You Worry (Audio)",
+          "url": "https://www.youtube.com/watch?v=HlolEYHP80c"
+        },
+        {
+          "titulo": "Sidoine - On Ne Vit Qu'Une Fois",
+          "url": "https://www.youtube.com/watch?v=YHBmVFw50p4"
+        },
+        {
+          "titulo": "Daughter - Human",
+          "url": "https://www.youtube.com/watch?v=MbCeyb9okac"
+        },
+        {
+          "titulo": "ANAVITÓRIA - Me conta da tua janela",
+          "url": "https://www.youtube.com/watch?v=hC0EQGIcbUI"
+        }
+      ]
+    }
+  ]
+}
