@@ -11,7 +11,7 @@ function App() {
       <Menu />
 
       <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
+        videoTitle={dadosIniciais.categorias[1].videos[0].titulo}
         url={dadosIniciais.categorias[1].videos[0].url}
         videoDescription={"Estrelas de nêutrons são uma das coisas mais extremas e violentas do universo. Núcleos atômicos gigantes, com apenas alguns quilômetros de diâmetro, mas tão massivos quanto estrelas. E eles devem sua existência à morte de algo majestoso."}
       />
