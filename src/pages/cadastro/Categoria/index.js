@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import PageDefault from '../../../components/PageDefault';
-import FormField from '../../../components/FormField';
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import PageDefault from '../../../components/PageDefault'
+import FormField from '../../../components/FormField'
+import Button from '../../../components/Button'
 
 function CadastroCategoria() {
     const valoresIniciais = {
@@ -10,7 +11,7 @@ function CadastroCategoria() {
         cor: ''
     }
     const[categorias, setCategorias] =  useState([])
-    const [values, setValues] = useState(valoresIniciais);
+    const [values, setValues] = useState(valoresIniciais)
     
     function setValue(key, value) {
         setValues({
@@ -51,9 +52,9 @@ function CadastroCategoria() {
 
             <FormField 
                 label="Descrição:"
-                type="text"
+                type="textarea"
                 name="descricao"
-                value={values.nome}
+                value={values.descricao}
                 onChange={handleChange}
             />
 
@@ -61,19 +62,19 @@ function CadastroCategoria() {
                 label="Cor:"
                 type="color"
                 name="cor"
-                value={values.nome}
+                value={values.cor}
                 onChange={handleChange}
             />
 
-            <button>
+            <Button as={ Link }>
                 Cadastrar
-            </button>
+            </Button>
             </form>
 
             <ul>
                 {categorias.map((categoria) => {
                     return(
-                        <li key={categoria}>
+                        <li key={categoria.nome}>
                             {categoria.nome}
                         </li>
                     )
@@ -87,4 +88,4 @@ function CadastroCategoria() {
     )
     }
 
-export default CadastroCategoria;
+export default CadastroCategoria
