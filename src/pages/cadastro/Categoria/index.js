@@ -29,7 +29,9 @@ function CadastroCategoria() {
     }
 
     useEffect(() => {
-        const URL = 'http://localhost:8080/categorias'
+        const URL = window.location.hostname.includes('localhost')
+        ? 'http://localhost:8080/categorias'
+        : 'https://myflix-abc.herokuapp.com/categorias'
         fetch(URL)
             .then(async (respostaDoServidor) => {
                 const resposta = await respostaDoServidor.json()
@@ -82,7 +84,14 @@ function CadastroCategoria() {
             <Button as={ Link }>
                 Cadastrar
             </Button>
+
             </form>
+
+            {categorias.length === 0 && (
+                <div>
+                    Carregando...
+                </div>
+            )}
 
             <ul>
                 {categorias.map((categoria) => {
