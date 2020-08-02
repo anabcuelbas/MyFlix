@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Arte",
+            "descrição": "Vídeos relacionados a vários tipos de arte",
+            "cor": "#8cede1"
+        },
+        {
+            "id": 2,
+            "nome": "Ciência e Tecnologia",
+            "descrição": "Para aprender",
+            "cor": "#af94e8"
+        }
+    ]
+}
