@@ -2,15 +2,210 @@
     "categorias": [
         {
             "id": 1,
-            "nome": "Arte",
-            "descrição": "Vídeos relacionados a vários tipos de arte",
-            "cor": "#8cede1"
+            "titulo": "Arte",
+            "descricao": "Vídeos relacionados a vários tipos de arte",
+            "cor": "#8cede1",
+            "link_extra": {
+                "text": "",
+                "url": ""
+            }
         },
         {
             "id": 2,
-            "nome": "Ciência e Tecnologia",
-            "descrição": "Para aprender",
-            "cor": "#af94e8"
+            "titulo": "Ciência e Tecnologia",
+            "descricao": "Para aprender",
+            "cor": "#af94e8",
+            "link_extra": {
+                "text": "",
+                "url": ""
+            }
+        },
+        {
+            "id": 3,
+            "titulo": "Culinária",
+            "descricao": "Cozinha",
+            "cor": "#e894e0",
+            "link_extra": {
+                "text": "",
+                "url": ""
+            }
+        },
+        {
+            "id": 4,
+            "titulo": "Filmes e Séries",
+            "descricao": "Para maratonar",
+            "cor": "#e89494",
+            "link_extra": {
+                "text": "",
+                "url": ""
+            }
+        },
+        {
+            "id": 5,
+            "titulo": "Jogos",
+            "descricao": "Trailers de jogos incríveis",
+            "cor": "#ed9c6e",
+            "link_extra": {
+                "text": "",
+                "url": ""
+            }
+        },
+        {
+            "id": 6,
+            "titulo": "Músicas",
+            "descricao": "Para ouvir sem parar",
+            "cor": "#edd16e",
+            "link_extra": {
+                "text": "",
+                "url": ""
+            }
+        }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "Purple Mountain｜Acrylic Painting on Canvas Step by Step",
+            "url": "https://www.youtube.com/watch?v=7PHG9Vk2CAY&feature=youtu.be" 
+        },
+        {
+            "id": 2,
+            "categoriaId": 1,
+            "titulo": "5 Steps To Making A Gorgeous 2D Game",
+            "url": "https://www.youtube.com/watch?v=QD3SFyWPVFY&feature=youtu.be"
+        },
+        {
+            "id": 3,
+            "categoriaId": 2,
+            "titulo": "Estrelas de Nêutrons",
+            "url": "https://www.youtube.com/watch?v=udFxKZRyQt4",
+            "description": "Estrelas de nêutrons são uma das coisas mais extremas e violentas do universo. Núcleos atômicos gigantes, com apenas alguns quilômetros de diâmetro, mas tão massivos quanto estrelas. E eles devem sua existência à morte de algo majestoso."
+        },
+        {
+            "id": 4,
+            "categoriaId": 2,
+            "titulo": "Deploy de aplicação NodeJS e ReactJS no Heroku | Diego Fernandes",
+            "url": "https://www.youtube.com/watch?v=-j7vLmBMsEU"
+        },
+        {
+            "id": 5,
+            "categoriaId": 2,
+            "titulo": "Wormholes",
+            "url": "https://www.youtube.com/watch?v=9P6rdqiybaw"
+        },
+        {
+            "id": 6,
+            "categoriaId": 2,
+            "titulo": "15 Sorting Algorithms in 6 Minutes",
+            "url": "https://www.youtube.com/watch?v=kPRA0W1kECg"
+        },
+        {
+            "id": 7,
+            "categoriaId": 3,
+            "titulo": "British Crumpets",
+            "url": "https://www.youtube.com/watch?v=VrT93xDJfPg"
+        },
+        {
+            "id": 8,
+            "categoriaId": 3,
+            "titulo": "Torta de Mousse de Maracujá e Chocolate",
+            "url": "https://www.youtube.com/watch?v=4Y7j7oJKL2k&list=PL7biWkm0dNqbIv6Pipwp-2LW8RsaRq3FS&index=60"
+        },
+        {
+            "id": 9,
+            "categoriaId": 4,
+            "titulo": "Interestellar",
+            "url": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+        },
+        {
+            "id": 10,
+            "categoriaId": 4,
+            "titulo": "Dark",
+            "url": "youtube.com/watch?v=ESEUoa-mz2c"
+        },
+        {
+            "id": 11,
+            "categoriaId": 4,
+            "titulo": "Simplesmente Acontece",
+            "url": "https://www.youtube.com/watch?v=ZUqU9SQOt10"
+        },
+        {
+            "id": 12,
+            "categoriaId": 4,
+            "titulo": "Sherlock",
+            "url": "https://www.youtube.com/watch?v=xK7S9mrFWL4"
+        },
+        {
+            "id": 13,
+            "categoriaId": 5,
+            "titulo": "Gris",
+            "url": "https://www.youtube.com/watch?v=BRiKQIVo7ao"
+        },
+        {
+            "id": 14,
+            "categoriaId": 5,
+            "titulo": "Horizon Zero Dawn",
+            "url": "https://www.youtube.com/watch?v=OpfuQulZHR8"
+        },
+        {
+            "id": 15,
+            "categoriaId": 5,
+            "titulo": "Life is Strange",
+            "url": "https://www.youtube.com/watch?v=AURVxvIZrmU"
+        },
+        {
+            "id": 16,
+            "categoriaId": 5,
+            "titulo": "Quantum Break",
+            "url": "https://www.youtube.com/watch?v=ruY1eT9bXiw"
+        },
+        {
+            "id": 17,
+            "categoriaId": 5,
+            "titulo": "Arise: A Simple Story",
+            "url": "https://www.youtube.com/watch?v=-wyQlqOuVSs"
+        },
+        {
+            "id": 18,
+            "categoriaId": 6,
+            "titulo": "Cooper & Gatlin - Fragile [Official Music Video] feat. Sean Lew & Kaycee Rice",
+            "url": "https://www.youtube.com/watch?v=dOQz_ulqqkI"
+        },
+        {
+            "id": 19,
+            "categoriaId": 6,
+            "titulo": "Taylor Swift – exile (feat. Bon Iver) (Official Lyric Video)",
+            "url": "https://www.youtube.com/watch?v=osdoLjUNFnA"
+        },
+        {
+            "id": 20,
+            "categoriaId": 6,
+            "titulo": "James Bay - Incomplete - Tessandra Chavez x Tim Milgram",
+            "url": "https://www.youtube.com/watch?v=wrAlPeQj_Ns"
+        },
+        {
+            "id": 21,
+            "categoriaId": 6,
+            "titulo": "Oh Wonder - Don't You Worry (Audio)",
+            "url": "https://www.youtube.com/watch?v=HlolEYHP80c"
+        },
+        {
+            "id": 22,
+            "categoriaId": 6,
+            "titulo": "Sidoine - On Ne Vit Qu'Une Fois",
+            "url": "https://www.youtube.com/watch?v=YHBmVFw50p4"
+        },
+        {
+            "id": 23,
+            "categoriaId": 6,
+            "titulo": "Daughter - Human",
+            "url": "https://www.youtube.com/watch?v=MbCeyb9okac"
+        },
+        {
+            "id": 24,
+            "categoriaId": 6,
+            "titulo": "ANAVITÓRIA - Me conta da tua janela",
+            "url": "https://www.youtube.com/watch?v=hC0EQGIcbUI"
         }
     ]
 }
