@@ -10,13 +10,10 @@
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
   --white: #FFFFFF;
-  --frontEnd: #6BD1FF;
-  --backEnd: #00C86F;
 }
 
 html,
 body {
-  --bodyPaddingTop: 94px;
   margin: 0;
   padding: 0;
 }
@@ -26,7 +23,7 @@ a {
 } 
 
 #root {
-  min-height: calc(100vh - var(--bodyPaddingTop));
+  min-height: calc(100vh - 94px);
   display: flex;
   flex-direction: column;
 }

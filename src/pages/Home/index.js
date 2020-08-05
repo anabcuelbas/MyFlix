@@ -18,7 +18,6 @@ function Home() {
   }, [])
 
   return (
-    <div style={{ background: "#141414" }}>
       <PageDefault paddingAll={0}>
 
         {dadosIniciais.length === 0 && (<div>Carregando...</div>)}
@@ -48,7 +47,6 @@ function Home() {
         })}
 
       </PageDefault>
-    </div>
   );
 }
 
